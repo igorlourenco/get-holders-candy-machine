@@ -1,0 +1,62 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "prettier --check .",
+    "format": "prettier --write .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.5",
+    "@chakra-ui/react": "^1.4.2",
+    "@chakra-ui/theme-tools": "1.1.2",
+    "@emotion/react": "11.1.5",
+    "@emotion/styled": "11.1.5",
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@metaplex/js": "1.1.1",
+    "@project-serum/anchor": "^0.17.1-beta.1",
+    "@solana/spl-token": "^0.1.8",
+    "@solana/wallet-adapter-base": "^0.6.0",
+    "@solana/wallet-adapter-material-ui": "^0.12.4",
+    "@solana/wallet-adapter-react": "^0.12.4",
+    "@solana/wallet-adapter-react-ui": "^0.5.1",
+    "@solana/wallet-adapter-wallets": "^0.10.1",
+    "@solana/web3.js": "^1.29.2",
+    "@usedapp/core": "^0.5.1",
+    "@walletconnect/client": "^1.6.5",
+    "@walletconnect/qrcode-modal": "^1.6.5",
+    "@walletconnect/web3-provider": "^1.6.5",
+    "ethers": "^5.4.7",
+    "framer-motion": "^4.0.3",
+    "fs": "^0.0.1-security",
+    "husky": "^7.0.2",
+    "next": "latest",
+    "next-seo": "^4.28.1",
+    "nextjs-cors": "^2.0.0",
+    "react": "^17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^17.0.2",
+    "web3modal": "^1.9.4"
+  },
+  "devDependencies": {
+    "@types/node": "^16.10.3",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "babel-plugin-import": "^1.13.3",
+    "next-compose-plugins": "^2.2.1",
+    "next-transpile-modules": "^8.0.0",
+    "prettier": "^2.4.1",
+    "typescript": "4.3.2"
+  },
+  "husky": {
+    "hooks": {
+      "applypatch-msg": "echo \"[Husky] applypatch-msg\"",
+      "pre-applypatch": "echo \"[Husky] pre-applypatch\"",
+      "post-applypatch": "echo \"[Husky] post-applypatch\"",
+      "pre-commit": "echo \"[Husky] pre-commit\""
+    }
+  }
+}
