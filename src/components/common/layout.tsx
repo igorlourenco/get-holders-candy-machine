@@ -1,7 +1,6 @@
 import { Stack, StackProps } from "@chakra-ui/react";
 import { Footer } from "./footer";
 import { Header } from "./header";
-import { SubFooterLanding } from "../landing/subfooter-landing";
 import { useRouter } from "next/router";
 
 export const Layout = ({ children, ...props }: StackProps) => {
@@ -17,7 +16,6 @@ export const Layout = ({ children, ...props }: StackProps) => {
         <Header />
         {children}
       </Stack>
-      <SubFooterLanding display={router.pathname === "/" ? "block" : "none"} />
       <Footer />
     </>
   );
