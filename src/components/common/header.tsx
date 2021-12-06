@@ -1,6 +1,5 @@
 import { Flex, Image, Link, Text, Heading, LinkProps } from "@chakra-ui/react";
 import { useRouter } from "next/router";
-import Connect from "./connect";
 
 const MenuLink = ({ children, href, ...props }: LinkProps) => {
   return (
