@@ -3,7 +3,7 @@ import { Layout } from "../components/common/layout";
 import { HoldersList } from "../components/common/holders-list";
 import * as anchor from "@project-serum/anchor";
 
-const rpcHost = "https://cool-winter-haze.solana-mainnet.quiknode.pro";
+const rpcHost = "https://solana-mainnet.phantom.tech";
 const connection = new anchor.web3.Connection(rpcHost);
 
 export default function HoldersPage() {
